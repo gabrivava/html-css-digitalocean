@@ -88,6 +88,55 @@ h1 {
     font-size: 3.5rem;
     margin-top: 3rem;
 }
+/* form css */
+form {
+    background-color: white;
+    border-radius: 4px;
+    margin-top: 2rem;
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+}
+form h2 {
+    font-size: 28px;
+}
+form h2:first-child {
+    margin-top: 1.5rem;
+    color: #0E2555;
+}
+form h2:nth-child(2) {
+    color: #006AFF;
+    margin-top: 0.5rem;
+}
+form input, form button {
+    width: 100%;
+    padding: 10px 5px;
+    margin-top: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 15px;
+}
+.bot-blue {
+    width: 100%;
+    padding: 10px 5px;
+    border-radius: 4px;
+    background-color: #579AFF;
+    border: none;
+    color: white;
+}
+.bot-shadow {
+    width: 100%;
+    padding: 10px 5px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px #e0e0e0;
+    background-color: white;
+}
+.termini_servizi {
+    margin: 1.3rem 0;
+    font-size: 14px;
+}
+
+
 
 /* media query Tablet */
 

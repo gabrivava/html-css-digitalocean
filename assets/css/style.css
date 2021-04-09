@@ -155,25 +155,50 @@ form input, form button {
 }
 
 /******** main css  ******* */
+
+/* customers */
 .customers {
     background-color: #F3F5F9;
-    height: 250px;
     width: 100%;
+    padding: 1rem 0;
 }
-.customers>.container {
+.customers .container {
+    height: 100%;
+}
+.customers .row {
+    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: space-around;
+}
+.customers span {
+    color: #6F7B97;
+    font-weight: 500;
+}
+.customers a {
+    text-decoration: none;
+    color: #207CFE;
+}
+.loghi_customers {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 1rem 0;
 }
 
+/* deploy */
+.deploy {
+    background-color: white;
+    height: 300px;
+}
 /* media query Tablet */
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
     .container {
-        margin: 10px;
+        margin: 0 10px;
     }
-
     /* header */
     nav>.menu {
         display: none;
@@ -192,6 +217,10 @@ form input, form button {
     .jumbotron section>p {
         line-height: 2rem;
     }
+    /* main */
+    .loghi_customers>img {
+        height: 60px;
+    }
 }
 
 /* media query telefono */
@@ -208,12 +237,9 @@ form input, form button {
         height: 50px;
     }
     .container {
-        margin: 10px;
+        margin: 0 10px;
     }
     /* jumbotron */
-    .jumbotron {
-        height: 850px;
-    }
     h1 {
         font-size: 45px;
     }
@@ -223,5 +249,17 @@ form input, form button {
     }
     form h2 {
         font-size: 30px;
+    }
+    /* main */
+    .loghi_customers>img {
+        width: 45%;
+        padding: 2%;
+    }
+    .customers {
+        padding: 2rem 0;
+    }
+    .customers .row span,
+    .customers .row a{
+        font-size: 1.5rem;
     }
 }  

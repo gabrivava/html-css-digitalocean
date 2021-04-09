@@ -44,4 +44,43 @@ header ul>li {
     color: #1377FF;
     text-decoration: none;
 }
+.hamburger {
+    display: none;
+}
 
+/* hamburger */
+.hamburger {
+    position: absolute;
+    right: 1rem;
+}
+.hamburger>div {
+    height: 3px;
+    width: 26px;
+    background-color: #1377FF;
+    margin: 0.3rem 0;
+}
+
+/* media query Tablet */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    nav>.menu {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+}
+
+/* media query telefono */
+
+@media screen and (max-width: 767px) {
+    nav>.menu {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+    header .logo>img {
+        height: 40px;
+    }
+}  

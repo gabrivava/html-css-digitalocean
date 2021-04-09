@@ -26,6 +26,11 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
 /* header */
 header .container.d_flex {
     align-items: center;
@@ -70,7 +75,6 @@ header ul>li {
 .jumbotron {
     background-image: url(../img/bg-banner-home.jpg);
     background-color: #004AFF;
-    height: 460px;
     background-size: cover;
     background-repeat: repeat-x;
     background-position: -60px 0px;
@@ -150,7 +154,17 @@ form input, form button {
     line-height: 1.5rem;
 }
 
-
+/******** main css  ******* */
+.customers {
+    background-color: #F3F5F9;
+    height: 250px;
+    width: 100%;
+}
+.customers>.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 /* media query Tablet */
 
@@ -171,9 +185,7 @@ form input, form button {
         height: 38px;
     }
     /* jumbotron */
-    .jumbotron {
-        height: 550px;
-    }
+
     h1 {
         font-size: 45px;
     }

@@ -198,15 +198,18 @@ form input, form button {
 /* deploy */
 .deploy {
     background-color: white;
+    padding-bottom: 2rem;;
 }
-.deploy p {
+.deploy p,
+.designed p {
     color: #5C6A88;
     line-height: 1.5rem;
     margin-top: 1rem;
     font-size: 1.2rem;
     padding-right: 20px;
 }
-.deploy section {
+.deploy section,
+.designed section {
     padding: 4rem 0;
     flex-direction: column;
     align-items: center;
@@ -225,7 +228,23 @@ form input, form button {
 .designed {
     background-color: #F3F5F9;
 }
-
+.slide_img {
+    width: 100%;
+}
+.designed .row>.col-lg-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.designed .slide  {
+    justify-content: center;
+}
+.designed .fas {
+    font-size: 35px;
+}
+.grey {
+    color: #99A1B5;
+}
 
 /* media query Tablet */
 

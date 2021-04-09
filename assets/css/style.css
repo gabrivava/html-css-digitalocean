@@ -8,6 +8,9 @@
 .jus_center {
     justify-content: center;
 }
+.jus_end{
+    justify-content: flex-end;
+}
 .arrow-down {
     border: 2.5px solid #152B5A;
     border-radius: 1px;
@@ -20,27 +23,29 @@
     display: inline-block;
     margin: 0 0.2rem 0.1rem;
 }
-
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 /* header */
 header .container.d_flex {
     align-items: center;
 }
 header>nav {
-    height: 70px;
+    background-color: white;
 }
 header .logo>img {
     height: 33px;
 }
 header ul>li {
     margin: 0 0.5rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
     font-weight: 400;
     color: #152B5A;
 }
 .bottone {
     border: 2px solid #1377FF;
     border-radius: 5px;
-    padding: 10px 10px;
+    padding: 8px 10px;
     color: #1377FF;
     text-decoration: none;
 }
@@ -60,6 +65,30 @@ header ul>li {
     margin: 0.3rem 0;
 }
 
+/* jumbotron */
+
+.jumbotron {
+    background-image: url(../img/bg-banner-home.jpg);
+    background-color: #004AFF;
+    height: 460px;
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position: -60px 0px;
+}
+.jumbotron section {
+    color: white;
+}
+.jumbotron section>p {
+    line-height: 1.7rem;
+    color: #B7CAFF;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+h1 {
+    font-size: 3.5rem;
+    margin-top: 3rem;
+}
+
 /* media query Tablet */
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -68,6 +97,12 @@ header ul>li {
     }
     .hamburger {
         display: block;
+    }
+    .container {
+        padding-left: 1rem;
+    }
+    header .logo>img {
+        height: 38px;
     }
 }
 
@@ -81,6 +116,9 @@ header ul>li {
         display: block;
     }
     header .logo>img {
-        height: 40px;
+        height: 45px;
+    }
+    .container {
+        padding-left: 1rem;
     }
 }  

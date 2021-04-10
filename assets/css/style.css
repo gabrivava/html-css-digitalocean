@@ -32,7 +32,7 @@ h3 {
 }
 h4 {
     color: #031C4E;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 .clearfix::after {
     content: '';
@@ -204,7 +204,8 @@ form input, form button {
     padding-bottom: 2rem;;
 }
 .deploy p,
-.designed p {
+.designed p,
+.features p {
     color: #5C6A88;
     line-height: 1.5rem;
     margin-top: 1rem;
@@ -263,6 +264,31 @@ form input, form button {
 }
 .pallini div:first-child {
     background-color: #006AFF;
+}
+
+/* features css */
+.features h3 {
+    margin: 3rem 0 2rem;
+    text-align: center;
+}
+.features .row img {
+    padding: 1rem 0;
+}
+.features p {
+    margin-bottom: 1rem;
+}
+.features .row div a {
+    text-decoration: none;
+    color: #066DFF;
+    font-size: 1.2rem;
+}
+.features {
+    padding-bottom: 3rem;
+}
+
+/* service */
+.service {
+    background: linear-gradient(180deg, #0047C5 0%, #001D99 100%);
 }
 /* media query Tablet */
 

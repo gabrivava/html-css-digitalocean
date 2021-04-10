@@ -285,11 +285,40 @@ form input, form button {
 .features {
     padding-bottom: 3rem;
 }
-
+.features a>span {
+    padding-left: 1rem;
+}
 /* service */
 .service {
     background: linear-gradient(180deg, #0047C5 0%, #001D99 100%);
+    color: white;
 }
+.service h3 {
+    color: white;
+    padding-top: 4rem;
+}
+.service .container {
+    text-align: center;
+}
+.service .row .d_flex {
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+}
+.service .d_flex span:nth-child(2) {
+    color: #ABBCE5;
+}
+.service .d_flex a {
+    color: #00BFCD;
+    text-decoration: none;
+}
+.service .d_flex a>span {
+    padding-left: 1rem;
+} 
+.service [class*="col-"] {
+    margin: 0;
+}
+
 /* media query Tablet */
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -323,9 +352,6 @@ form input, form button {
     .pallini > div {
         height: 14px;
         width: 14px;
-        border-radius: 7px;
-        border: 2px solid #006AFF;
-        margin: 0 .3rem;
     }
 }
 

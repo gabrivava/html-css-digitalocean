@@ -444,6 +444,37 @@ footer ul>li {
     font-size: .7rem;
 }
 
+/* BONUS CSS */
+.text_shark {
+    display: none;
+    height: 70px;
+    width: 350px;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    right: 75px;
+    border-radius: 5px;
+}
+.shark:hover .text_shark {
+    display: block;
+}
+.shark:hover .spunta {
+    display: block;
+}
+.spunta {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    transform: rotate(45deg);
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    right: 70px;
+    border-radius: 2px;
+}
+
+
 /* media query Tablet */
 
 @media screen and (min-width: 768px) and (max-width: 991px) {

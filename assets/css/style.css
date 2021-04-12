@@ -294,7 +294,8 @@ form input, form button {
     padding-left: 1rem;
 }
 /* service */
-.service {
+.service,
+.get_started {
     background: linear-gradient(180deg, #0047C5 0%, #001D99 100%);
     color: white;
     padding-bottom: 3rem;
@@ -364,7 +365,24 @@ form input, form button {
     padding-left: 1rem;
 }
 
-
+/* get started */
+.get_started {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4rem;
+}
+.get_started h3 {
+    color: white;
+    padding-bottom: 2rem;
+}
+.get_started a {
+    background-color: white;
+    border-radius: 5px;
+    padding: 8px 10px;
+    color: #066DFF;
+    text-decoration: none;
+    
+}
 
 /* media query Tablet */
 

@@ -164,6 +164,10 @@ form input, form button {
     font-size: 14px;
     line-height: 1.5rem;
 }
+.termini_servizi a {
+    text-decoration: none;
+    color: #066DFF;
+}
 
 /******** main css  ******* */
 

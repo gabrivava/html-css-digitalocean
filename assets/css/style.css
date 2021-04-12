@@ -384,6 +384,49 @@ form input, form button {
     
 }
 
+/* footer */
+footer {
+    background-color: #031C4E;
+    padding: 2rem 0;
+}
+footer span,
+footer .col-lg-4>div {
+    color: #8992A8;
+}
+footer .social>i {
+    margin: .5rem;
+    font-size: 1.5rem;
+}
+footer h5 {
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+footer .unstyle>li a {
+    text-decoration: none;
+    color: #959EB1;
+}
+footer ul>li {
+    line-height: 1.6rem;
+}
+
+/* shark */
+.shark {
+    background-color: #006AFF;
+    border-radius: 5px;
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.shark img {
+    width: 100%;
+    padding-top: 7px;
+}
+
 /* media query Tablet */
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
